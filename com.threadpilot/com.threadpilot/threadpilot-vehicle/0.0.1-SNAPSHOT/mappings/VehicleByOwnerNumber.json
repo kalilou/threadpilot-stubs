@@ -1,0 +1,16 @@
+{
+  "id" : "24f4ef0c-b6bf-44dd-a76e-75d63c327ee6",
+  "request" : {
+    "urlPath" : "/api/vehicles/owner/199001011235",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"registrationNumber\":\"1234567890\",\"fuelType\":\"Petrol\",\"model\":\"Corolla\",\"make\":\"Toyota\",\"year\":2020,\"color\":\"Red\",\"ownerPersonalNumber\":\"199001011235\",\"mileage\":1000}]",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "24f4ef0c-b6bf-44dd-a76e-75d63c327ee6"
+}
