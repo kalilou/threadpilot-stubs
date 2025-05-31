@@ -1,5 +1,5 @@
 {
-  "id" : "24f4ef0c-b6bf-44dd-a76e-75d63c327ee6",
+  "id" : "9fa67254-3197-4522-aa45-066f2eb23b2f",
   "request" : {
     "urlPath" : "/api/vehicles/owner/199001011235",
     "method" : "GET"
@@ -12,5 +12,5 @@
     },
     "transformers" : [ "response-template", "spring-cloud-contract" ]
   },
-  "uuid" : "24f4ef0c-b6bf-44dd-a76e-75d63c327ee6"
+  "uuid" : "9fa67254-3197-4522-aa45-066f2eb23b2f"
 }
